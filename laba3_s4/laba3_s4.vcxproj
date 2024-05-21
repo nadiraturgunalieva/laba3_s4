@@ -130,6 +130,7 @@
     <ClCompile Include="laba3_s4.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Shape3D.h" />
     <ClInclude Include="Square.h" />
