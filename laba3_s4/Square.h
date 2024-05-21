@@ -18,8 +18,8 @@ public:
 	}
 	void ShowInfo() override {
 		std::cout << GetName() << std::endl;
-		std::cout << "side: " << side << std::endl;
-		std::cout << "area: " << GetArea() << std::endl << std::endl;
+		std::cout << "Side: " << side << std::endl;
+		std::cout << "Area: " << GetArea() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "Square";
