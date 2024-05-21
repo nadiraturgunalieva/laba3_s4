@@ -15,24 +15,24 @@ int main() {
 	sq.CalculateArea();
 	sq.ShowInfo();
 
-	Triangle tr(2, 5);
+	Triangle tr(6, 5);
 	tr.CalculateArea();
 	tr.ShowInfo();
 
-	Circle cr(6);
+	Circle cr(4);
 	cr.CalculateArea();
 	cr.ShowInfo();
 
-	TriangularPyramid pyramid(6, 5, 4);
+	TriangularPyramid pyramid(9, 5, 3);
 	pyramid.CalculateVolume();
 	pyramid.ShowInfo();
 
-	Cylinder cyl(7, 2);
+	Cylinder cyl(7, 6);
 	cyl.CalculateVolume();
 	cyl.ShowInfo();
 
 
-	Sphere sp(4);
+	Sphere sp(5);
 	sp.CalculateVolume();
 	sp.ShowInfo();
 
