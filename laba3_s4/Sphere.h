@@ -18,7 +18,8 @@ public:
 	}
 	void ShowInfo() override {
 		std::cout << GetName() << std::endl;
-		std::cout << "Sphere with radius: " << radius << " and volume: " << GetVolume() << std::endl;
+		std::cout << "Radius: " << radius << std::endl;
+		std::cout << "Volume: " << GetVolume() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "Sphere";

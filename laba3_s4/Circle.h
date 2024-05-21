@@ -21,7 +21,8 @@ public:
 	}
 	void ShowInfo() override {
 		std::cout << GetName() << std::endl;
-		std::cout << "Circle with radius: " << radius << " and area " << this->GetArea() << std::endl << std::endl;
+		std::cout << "Radius: " << radius << std::endl;
+		std::cout << "Area: " << this->GetArea() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "Circle";

@@ -20,7 +20,9 @@ public:
 	void Scale(float scaleFactor) override { area = area * scaleFactor; }
 	void ShowInfo() override {
 		std::cout << GetName() << std::endl;
-		std::cout << "Triangle with base: " << base << " and height: " << height << " and area " << this->GetArea() << std::endl << std::endl;
+		std::cout << "Triangle with base: " << base << std::endl;
+		std::cout << "Height: " << height << std::endl;
+		std::cout << "Area: " << this->GetArea() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "Triangle";

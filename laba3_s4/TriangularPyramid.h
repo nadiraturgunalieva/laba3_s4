@@ -25,7 +25,8 @@ public:
 	void ShowInfo() override {
 		CalculateVolume();
 		std::cout << GetName() << std::endl;
-		std::cout << "TriangularPyramid with height: " << triangleHeight << " and volume: " << this->GetVolume() << std::endl << std::endl;
+		std::cout << "Height: " << triangleHeight << std::endl;
+		std::cout << "Volume: " << this->GetVolume() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "TriangularPyramid";

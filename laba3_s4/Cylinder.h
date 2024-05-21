@@ -26,7 +26,8 @@ public:
 	void ShowInfo() override {
 		CalculateVolume();
 		std::cout << GetName() << std::endl;
-		std::cout << "Cylinder with height:" << height << " and volume: " << GetVolume() << std::endl << std::endl;
+		std::cout << "Height:" << height << std::endl;
+		std::cout << "Volume: " << GetVolume() << std::endl << std::endl;
 	}
 	std::string GetName() override {
 		return "Cylinder";
