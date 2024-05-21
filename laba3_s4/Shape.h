@@ -8,4 +8,5 @@ public:
 	virtual void ShowInfo() = 0;
 	virtual std::string GetName() = 0;
 };
+
 #endif SHAPE_H
